@@ -21,8 +21,7 @@ public class FuncionarioFactoryTest {
 	@Before
 	public void setUp() throws Exception {
 
-		this.factory = null; // colocar seu
-								// FuncionarioFactoryImpl.getInstancia();
+		this.factory = FuncionarioFactoryImp.getInstancia();
 	}
 
 	@After
